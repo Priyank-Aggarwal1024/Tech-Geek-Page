@@ -1,0 +1,70 @@
+.alac-pack-new-courses {
+    margin-top: 34px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.alac-pack-new-course-main-heading {
+    max-width: 428px;
+    margin: 0 auto;
+    line-height: 120%;
+}
+
+.alac-pack-new-course-heading {
+    color: var(--Woodsmoke-700, #4C4D52);
+    /* text-align: center; */
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    /* 41.6px */
+}
+
+.alac-pack-new-course {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.alac-pack-new-course-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 16px;
+    column-gap: 20px;
+    /* justify-content: space-between; */
+}
+
+
+.alac-pack-new-course-div-outer {
+    max-width: 100%;
+}
+
+.alac-pack-new-course-div {
+    width: 100%;
+}
+
+@media (width<1200px) {
+    .alac-pack-new-course-div {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (width<768px) {
+    .alac-pack-new-course-div {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media(width<580px) {
+    .alac-pack-new-course-heading {
+        font-size: 28px;
+    }
+}
+
+@media(width<580px) {
+    .alac-pack-new-course-heading {
+        font-size: 24px;
+    }
+}

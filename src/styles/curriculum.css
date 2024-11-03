@@ -1,0 +1,208 @@
+.alac-pack-new-c-heading {
+    color: var(--Eminence-700, #992E9D);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    /* 106.667% */
+    letter-spacing: -0.9px;
+    max-width: 531px;
+}
+
+.alac-pack-new-curriculum {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.alac-pack-new-c-middle {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 953px;
+    gap: 36px;
+    padding-top: 18px;
+}
+
+.alac-pack-new-c-middle>p {
+    display: flex;
+    padding: 10px 6px 10px 11px;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    color: #585858;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140.595%;
+    /* 22.495px */
+    border-radius: 10px;
+    background: #FEF8FE;
+    box-shadow: 0px 4px 6.3px 0px rgba(210, 210, 210, 0.25);
+}
+
+.alac-pack-new-c-bottom {
+    display: grid;
+    max-width: 911px;
+    column-gap: 33px;
+    row-gap: 19px;
+    padding-top: 58px;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.alac-pack-new-cb-card {
+    display: flex;
+
+    width: 100%;
+    border-radius: 15.273px;
+    background: var(--Color-2, #FFF);
+    box-shadow: 3.818px 5.091px 6.109px 0px rgba(135, 135, 135, 0.19);
+}
+
+.alac-pack-new-cbc-left {
+
+    width: 25%;
+    height: 100%;
+    background: var(--Linear, linear-gradient(180deg, #9849FF 0%, #841EE3 93.51%));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 15.273px;
+    border-bottom-left-radius: 15.273px;
+
+}
+
+.alac-pack-new-cbc-right {
+    padding: 20px 15px;
+    width: 100%;
+}
+
+.alac-pack-new-cbcr-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 58.545px;
+    border: 1.273px solid #8723E7;
+    box-shadow: 0px 5.446px 12.117px 0px rgba(0, 0, 0, 0.25);
+    color: #8724E7;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15.273px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.5%;
+    /* 18.862px */
+}
+
+.alac-pack-new-cbcr-top {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+
+
+}
+
+.alac-pack-new-card-heading {
+    color: #3D3D3D;
+    font-family: Poppins;
+    font-size: 25.913px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140.595%;
+    /* 36.432px */
+}
+
+.alac-pack-new-cbcrt-right {
+    font-family: Poppins;
+    font-size: 76.364px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120.595%;
+    /* 107.363px */
+    opacity: 0.1;
+    margin-top: -10px;
+    background: var(--Linear, linear-gradient(180deg, #B872D0 0%, #362FAA 198%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.alac-pack-new-card-duration {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+@media (width<1024px) {
+    .alac-pack-new-c-heading {
+        font-size: 40px;
+    }
+}
+
+@media (width<780px) {
+    .alac-pack-new-c-heading {
+        font-size: 36px;
+    }
+
+    .alac-pack-new-c-middle {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .alac-pack-new-c-middle>p {
+        font-size: 14px;
+    }
+
+    .alac-pack-new-c-bottom {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media (width<580px) {
+    .alac-pack-new-c-heading {
+        font-size: 30px;
+    }
+
+    .alac-pack-new-card-heading {
+        font-size: 20px;
+    }
+
+    .alac-pack-new-card-duration {
+        font-size: 14px;
+    }
+
+    .alac-pack-new-cbcrt-right {
+        font-size: 60px;
+    }
+
+    .alac-pack-new-cbcr-bottom {
+        padding: 11px;
+    }
+
+    .alac-pack-new-cbc-right {
+        padding: 12px 15px;
+    }
+
+    .alac-pack-new-c-bottom {
+        padding-top: 24px;
+    }
+
+    .alac-pack-new-cbc-left>img {
+        max-width: 100%;
+    }
+}
+
+@media (width<360px) {
+    .alac-pack-new-c-middle {
+        grid-template-columns: 1fr;
+    }
+}

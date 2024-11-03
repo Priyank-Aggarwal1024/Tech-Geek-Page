@@ -1,0 +1,165 @@
+.alac-pack-new-doubt-solve-heading {
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    line-height: 120%;
+    text-align: center;
+    margin-bottom: 56px;
+    /* 57.6px */
+}
+
+.alac-pack-new-doubt-main {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 37px;
+    row-gap: 26px;
+    align-items: center;
+
+}
+
+.alac-pack-new-doubt-right>img {
+    width: 100%;
+    aspect-ratio: 628/337;
+    max-width: 600px;
+}
+
+.alac-pack-new-doubt-left {
+    border-radius: 28px;
+    background: var(--Color-2, #FFF);
+    box-shadow: 0px 4px 25.3px 0px rgba(137, 137, 137, 0.25);
+    position: relative;
+    padding: 36px 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 39px;
+    overflow: hidden;
+
+}
+
+.alac-pack-new-doubt-design {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom-left-radius: 28px;
+}
+
+.alac-pack-new-doubt-card {
+
+    display: flex;
+    gap: 34px;
+    align-items: center;
+}
+
+.alac-pack-new-dc-left>img {
+    width: 77px;
+    height: 77px;
+}
+
+.alac-pack-new-dc-right {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 12px;
+}
+
+.alac-pack-new-dc-text {
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.7;
+}
+
+.alac-pack-new-dc-heading {
+    color: #000;
+    text-align: start;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    /* 36px */
+}
+
+@media (width<1280px) {}
+
+@media (width<980px) {
+    .alac-pack-new-doubt-solve-heading {
+        font-size: 42px;
+    }
+
+    .alac-pack-new-doubt-main {
+        grid-template-columns: auto;
+        grid-template-rows: auto 1fr;
+
+    }
+
+    .alac-pack-new-doubt-right {
+        grid-row: 1/2;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (width<780px) {
+    .alac-pack-new-doubt-solve-heading {
+        font-size: 36px;
+    }
+
+
+}
+
+@media (width<580px) {
+
+    .alac-pack-new-dc-text {
+        font-size: 16px;
+
+    }
+
+    .alac-pack-new-doubt-card {
+        gap: 16px;
+    }
+
+    .alac-pack-new-doubt-left {
+        gap: 24px;
+    }
+
+    .alac-pack-new-dc-left>img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .alac-pack-new-doubt-card {
+        align-items: start;
+    }
+
+    .alac-pack-new-dc-heading {
+
+        font-size: 25px;
+
+    }
+}
+
+@media (width<480px) {
+    .alac-pack-new-doubt-solve-heading {
+        font-size: 30px;
+    }
+
+    .alac-pack-new-dc-text {
+        font-size: 14px;
+
+    }
+
+    .alac-pack-new-dc-heading {
+
+        font-size: 20px;
+
+    }
+}
+
+@media (width<360px) {}

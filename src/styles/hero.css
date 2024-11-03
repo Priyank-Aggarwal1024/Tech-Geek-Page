@@ -1,0 +1,275 @@
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.hero-section {
+    padding: 32px 64px;
+    padding-right: 0;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.hero-section>div {
+    width: 50%;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.hero-left-iit {
+    display: flex;
+    padding: 10px 21px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+    border: 1px solid #800080;
+    background: var(--Color-2, #FFF);
+    width: fit-content;
+}
+
+.hero-left-top {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.main-heading {
+    line-height: 120%;
+    max-height: 264px;
+    font-size: clamp(36px, 4vw, 55px);
+
+}
+
+
+.hero-left-bottom-card {
+    display: flex;
+    gap: 0px;
+}
+
+.hlbc-card {
+    display: flex;
+    align-items: center;
+}
+
+.hlbc-card-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid rgba(128, 0, 128, 0.70);
+    height: 72px;
+}
+
+.hero-left-svg {
+    width: 24px;
+    height: 24px;
+}
+
+.hero-right {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-right-design {
+    position: absolute;
+    right: -80px;
+    top: -300px;
+    fill: var(--Linear, linear-gradient(188deg, rgba(128, 0, 128, 0.30) 6.4%, rgba(255, 134, 76, 0.08) 42.44%));
+    opacity: 0.7;
+
+}
+
+.small-hero-design {
+    display: none;
+}
+
+.hero-right-image {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-right-image>img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-speciallycrafted-para {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 124.968%;
+    /* 24.994px */
+    max-width: 351px;
+}
+
+.hlbc-card-right {
+    width: 24px;
+    height: 4px;
+    background-color: gray;
+}
+
+.hero-price-sec {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    width: 100%;
+}
+
+.hero-psl-orgprice {
+    color: #000;
+    font-family: Poppins;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120.802%;
+    /* 47.063px */
+}
+
+.hero-psl-discprice {
+    color: #585858;
+    font-family: Poppins;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.802%;
+    text-decoration: line-through;
+}
+
+.hero-ps-right {
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    /* 23.4px */
+    letter-spacing: 0.18px;
+    max-width: 376px;
+}
+
+@media (width<980px) {
+    .hero-section {
+        flex-direction: column;
+    }
+
+    .hero-right-design {
+        right: -63px;
+        top: -250px;
+    }
+
+    .large-hero-design {
+        display: none;
+    }
+
+    .small-hero-design {
+        display: block;
+        top: 0;
+        right: -64px;
+
+    }
+
+    .hero-section>div {
+        width: 100%;
+    }
+
+    .hero-right {
+        margin-top: 48px;
+    }
+
+    .main-heading {
+        font-size: 55px;
+        max-height: none;
+        width: 70%;
+    }
+
+    .hero-right {
+        display: none;
+    }
+
+    .hero-section {
+        padding: 32px 32px;
+    }
+}
+
+
+@media (width<780px) {
+    .main-heading {
+        font-size: 45px;
+        width: 100%;
+    }
+
+    .section.hero-section {
+        padding-top: 50px;
+    }
+
+    .hlbc-card-left {
+        height: 52px;
+    }
+
+    .hero-ps-right {
+        font-size: 16px;
+    }
+}
+
+@media (width<580px) {
+    .hero-left-svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .hero-psl-discprice {
+        font-size: 19px;
+    }
+
+    .hero-psl-orgprice {
+        font-size: 33px;
+    }
+
+    .hero-right {
+        gap: 12px;
+    }
+
+    .hlbc-card {
+        gap: 3px;
+    }
+
+    .hero-section {
+        padding: 32px 16px;
+    }
+}
+
+@media (width<480px) {
+    .main-heading {
+        font-size: 34px;
+    }
+
+    .hlbc-card-left {
+        padding: 12px 12px;
+        height: fit-content;
+    }
+}
+
+@media (width<330px) {
+    .hero-right {
+        flex-wrap: wrap;
+
+    }
+}

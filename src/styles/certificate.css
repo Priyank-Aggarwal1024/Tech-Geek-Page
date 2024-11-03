@@ -1,0 +1,42 @@
+.alac-pack-new-certificate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alac-pack-new-certificate-heading {
+    max-width: 825px;
+}
+
+.alac-pack-new-certificate-img {
+    max-width: 591px;
+    width: 100%;
+    aspect-ratio: 591.786px/457.289px;
+    padding-top: 48px;
+    padding-bottom: 32px;
+}
+
+.certificate-section-font-inter {
+    font-family: Inter;
+    font-size: 38.515px;
+    text-align: center;
+
+}
+
+@media (width<768px) {
+    .certificate-section-font-inter {
+        font-size: 30px;
+    }
+}
+
+@media (width<580px) {
+    .certificate-section-font-inter {
+        font-size: 20px;
+    }
+
+    .alac-pack-new-certificate-img {
+        padding-top: 21px;
+        padding-bottom: 23px;
+        width: 100%;
+    }
+}
